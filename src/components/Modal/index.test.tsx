@@ -1,5 +1,5 @@
 import React from 'react';
-import Modal from './';
+// import Modal from './';
 import App from '../../App';
 import { render, fireEvent } from '@testing-library/react';
 describe('Display modal open',()=>{
