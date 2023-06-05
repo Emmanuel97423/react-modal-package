@@ -11,9 +11,6 @@ interface ModalProp {
     handleCloseModal:(e:React.MouseEvent<HTMLButtonElement>)=>void;
 }
 
-
-
-const Modal:React.FC<ModalProp> = ({  width, height, children, open, handleCloseModal})=>{
   const ModalWrapper = styled.div<Partial<ModalProp>>`
   width: 100%;
   height: 100vh;
@@ -44,6 +41,9 @@ const CloseButton = styled.button`
   font-size: 1.5rem;
   align-self: end;
 `;
+
+const Modal:React.FC<ModalProp> = ({  width, height, children, open, handleCloseModal})=>{
+
   
 
     return(
