@@ -44,10 +44,7 @@ const CloseButton = styled.button`
 
 const Modal:React.FC<ModalProp> = ({  width, height, children, open, handleCloseModal})=>{
 
-  
-
-    return(
-       
+    return(      
        
         <ModalWrapper open={open}>
             <ModalContent width={width} height={height} >
