@@ -9,16 +9,16 @@ const App: React.FC = () => {
     const handleModal:() => void = ()=>{
         setOpenModal(true)
         }
-        const handleCloseModal:() => void = ()=>{
+    const handleCloseModal:() => void = ()=>{
         setOpenModal(false)
         }
 
     return(
-        <div>
-        <button onClick={()=>setOpenModal(true)}>Active Modal</button>
+        <>
+             <Modal width={'400'} height={'300'} open={openModal}  handleModal={handleModal} handleCloseModal={handleCloseModal}>Modal content</Modal>
+        </>
+        
 
-            <Modal width={'200'} height={'300'} open={openModal} content="Example" handleModal={handleModal} handleCloseModal={handleCloseModal}/>
-        </div>
     )
 }
 
