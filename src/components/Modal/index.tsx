@@ -1,15 +1,14 @@
+import React from 'react';
 import {ReactNode, useState} from 'react';
 
 interface ModalProp {
     width: string;
     height: string;
     content:ReactNode;
-    closeButton: boolean;
     open:boolean;
 }
 
-const Modal:React.FC<ModalProp> = ({width, height, content,open, closeButton})=>{
-    console.log('open:', open)
+const Modal:React.FC<ModalProp> = ({width, height, content,open})=>{
     const [openModal, setOpenModal] = useState(open);
 
     const handleModal:() => void = ()=>{
