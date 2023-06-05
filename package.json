@@ -1,6 +1,6 @@
 {
   "name": "modal-react-epok974",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "type": "module",
   "main": "./dist/modal-react-epok974.umd.js",
   "module": "./dist/modal-react-epok974.es.js",
