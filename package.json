@@ -2,13 +2,13 @@
   "name": "modal-react-epok974",
   "version": "1.0.13",
   "type": "module",
-  "main": "./dist/modal-react-epok974.umd.cjs",
-  "module": "./dist/modal-react-epok974.js",
+  "main": "./dist/modal-react-epok974.umd.js",
+  "module": "./dist/modal-react-epok974.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/modal-react-epok974.js",
-      "require": "./dist/modal-react-epok974.umd.cjs"
+      "import": "./dist/modal-react-epok974.es.js",
+      "require": "./dist/modal-react-epok974.umd.js"
     }
   },
   "files": [
