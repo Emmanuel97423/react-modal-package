@@ -7,7 +7,7 @@ interface ModalProp {
     height: string;
     children:ReactNode;
     open:boolean;
-    handleModal:(e:React.MouseEvent<HTMLButtonElement>, open:boolean) => void;
+    handleModal:(e:React.MouseEvent<HTMLButtonElement>) => void;
     handleCloseModal:(e:React.MouseEvent<HTMLButtonElement>)=>void;
 }
 
