@@ -15,7 +15,9 @@ const App: React.FC = () => {
 
     return(
         <>
-             <Modal width={'400'} height={'300'} open={openModal}  handleModal={handleModal} handleCloseModal={handleCloseModal}>Modal content</Modal>
+        <button onClick={()=>setOpenModal(true)}>Active Modal</button>
+
+       <Modal width={'400'} height={'300'} open={openModal}  handleModal={handleModal} handleCloseModal={handleCloseModal}>Modal content</Modal>
         </>
         
 
