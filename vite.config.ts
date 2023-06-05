@@ -9,8 +9,20 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'modal-react-epok974',
-      fileName: 'modal-react-epok974',
+      fileName: (format) => `modal-react-epok974.${format}.js`,
     },
+    rollupOptions: {
+            external: ['react', 'react-dom', 'styled-components'],
+            output: {
+                globals: {
+                    react: 'React',
+                    'react-dom': 'ReactDOM',
+                    'styled-components': 'styled',
+                },
+            },
+        },
   },
-  plugins: [react(), dts()],
+  plugins: [react(), dts({
+            insertTypesEntry: true,
+        })],
 })
