@@ -6,7 +6,7 @@ import React from 'react';
 const App: React.FC = () => {
     return(
         <div>
-        <Modal width={''} height={''} content={undefined} open={false}/>
+            <Modal width={''} height={''} content={undefined} open={false}/>
         </div>
     )
 }
