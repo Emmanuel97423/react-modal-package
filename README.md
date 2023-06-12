@@ -26,7 +26,7 @@ npm i modal-react-epok974
 L'utilisation de ce package est simple. Il suffit d'importer le composant Modal et de l'intégrer à votre application comme suit :
 
 ```jsx
-import Modal from 'votre-package-modal-react';
+import Modal from 'modal-react-epok974';
 
 function App() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -60,8 +60,11 @@ Modal accepte les props suivantes :
 | `open` | boolean | false | Un booléen indiquant si le modal doit être ouvert ou fermé. |
 | `handleCloseModal` | function | undefined | Une fonction qui est appelée lorsque l'utilisateur souhaite fermer le modal. |
 
-##Contribuer
+## Contribuer
 Les contributions sont toujours les bienvenues. Si vous avez une fonctionnalité à suggérer ou un bug à signaler, n'hésitez pas à ouvrir un issue.
 
-####License
+Vous pouvez consulter le code source de ce package sur [GitHub](https://github.com/Emmanuel97423/react-modal-package).
+
+
+#### License
 MIT
