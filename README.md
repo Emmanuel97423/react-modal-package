@@ -1,5 +1,17 @@
 # Modal React
 
+## Prérequis
+
+Ce package nécessite les versions minimales suivantes pour fonctionner correctement :
+
+- Node.js : v16.18.1
+- React : v18.2.0
+- ReactDOM : v18.2.0
+- Styled Components : v6.0.0-rc.3
+
+Assurez-vous que vous avez bien installé ces versions avant de commencer à utiliser ce package.
+
+
 Ce package Modal React est une solution rapide et efficace pour ajouter une fonctionnalité de modal à votre application React. Il est facile à utiliser et à personnaliser, avec plusieurs options disponibles pour l'adapter à vos besoins.
 
 ## Installation
