@@ -22,7 +22,7 @@ Pour installer ce package, utilisez simplement la commande suivante :
 npm i modal-react-epok974
 ```
 
-##Utilisation
+## Utilisation
 L'utilisation de ce package est simple. Il suffit d'importer le composant Modal et de l'intégrer à votre application comme suit :
 
 ```jsx
