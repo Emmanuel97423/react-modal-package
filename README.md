@@ -1,29 +1,29 @@
 # Modal React
 
-## Prérequis
+## Prerequisites
 
-Ce package nécessite les versions minimales suivantes pour fonctionner correctement :
+This package requires the following minimum versions to function properly:
 
 - Node.js : v16.18.1
 - React : v18.2.0
 - ReactDOM : v18.2.0
 - Styled Components : v6.0.0-rc.3
 
-Assurez-vous que vous avez bien installé ces versions avant de commencer à utiliser ce package.
+Make sure you have installed these versions before starting to use this package.
 
-
-Ce package Modal React est une solution rapide et efficace pour ajouter une fonctionnalité de modal à votre application React. Il est facile à utiliser et à personnaliser, avec plusieurs options disponibles pour l'adapter à vos besoins.
+This Modal React package is a quick and efficient solution to add modal functionality to your React application. It is easy to use and customize, with multiple options available to tailor it to your needs.
 
 ## Installation
 
-Pour installer ce package, utilisez simplement la commande suivante :
+To install this package, simply use the following command:
 
 ```bash
 npm i modal-react-epok974
 ```
 
-## Utilisation
-L'utilisation de ce package est simple. Il suffit d'importer le composant Modal et de l'intégrer à votre application comme suit :
+## Usage
+
+Using this package is simple. Just import the Modal component and integrate it into your application as follows:
 
 ```jsx
 import Modal from 'modal-react-epok974';
@@ -41,7 +41,7 @@ function App() {
         width="500"
         height="300"
       >
-        Contenu de votre modal
+        Modal content
       </Modal>
     </>
   );
@@ -49,21 +49,22 @@ function App() {
 ```
 
 ## Props
-Modal accepte les props suivantes :
+
+Modal accepts the following props:
 
 
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `width` | string | '500px' | La largeur du modal. |
-| `height` | string | '300px' | La hauteur du modal. |
-| `open` | boolean | false | Un booléen indiquant si le modal doit être ouvert ou fermé. |
-| `handleCloseModal` | function | undefined | Une fonction qui est appelée lorsque l'utilisateur souhaite fermer le modal. |
+| `width` | string | '500px' | The width of the modal. |
+| `height` | string | '300px' | The height of the modal. |
+| `open` | boolean | false | A boolean indicating whether the modal should be open or closed. |
+| `handleCloseModal` | function | undefined | A function that is called when the user wants to close the modal. |
 
-## Contribuer
-Les contributions sont toujours les bienvenues. Si vous avez une fonctionnalité à suggérer ou un bug à signaler, n'hésitez pas à ouvrir un issue.
+## Contributing
+Contributions are always welcome. If you have a feature to suggest or a bug to report, feel free to open an issue.
 
-Vous pouvez consulter le code source de ce package sur [GitHub](https://github.com/Emmanuel97423/react-modal-package).
+You can check out the source code of this package at [GitHub](https://github.com/Emmanuel97423/react-modal-package).
 
 
 #### License
